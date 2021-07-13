@@ -1,20 +1,64 @@
-# haae_luis
+# LUIS Chatbot | Models | Scripts | Testing | Training |
 <!-- forge.header -->
 [![CloudForge Console][console_shield]][console_url] [![Open PRs][pr_shield]][pr_url]
 
 | Environment   | Type          | Status        | Days Since Last Deployment |
 | ------------- | ------------- | ------------- | -------------------------- |
+| Microsoft LUIS |              | creating new models |                      |
 <!-- /forge.header -->
 
 <!-- Add your content here -->
-Welcome to your new git repository!
+## Our Progress
+- [x] Retrieved Utterances from Power BI
+- [x] Added utterances to batch files (600)
+- [x] Created pipeline on adding utterances through Excel
+- [x] Created JavaScript script that adds and trains new utterances into model
+- [x] Created pipeline for adding entities and its sub-entities to utterances through Excel
+- [] Create different models with different entities to test
+- [] Framework for testing and analyzing/improving prediction score and/or accuracy
+- [] Framework for training completed data using python script
 
 
+## How It's Done
+Main framework:
+
+    **Testing** team will:
+        - Test random batch files with utterances to see how model behaves.
+        - Analyze results and pinpoint bottlenecks in data (i.e. wrong labeled entity, low prediction score, etc.).
+        - Communicate those results with training team to improve training data.
+        - Repeat steps 1 - 3 with different batch files and different models.
+    
+    **Training** team will:
+        - Use Excel pipeline to structure JSON files with correct utterances and its respective entities/sub-entities.
+        - Target specific utterances and entities based on model behavior.
+        - Use JavaScript automation script to send and train the data into LUIS endpoint.
+        - Repeat steps 1 - 3 with different training sets and different models.
 
 
+## JavaScript Automation Process
+Uses the `request` API to grab utterances and send to LUIS bot for training.
 
+Uses `POST` and `GET` methods to supply training data into the LUIS endpoint.
 
+The `train` function performs the training process asynchronously for a smooth process.
 
+```
+const train = async (verb) => {
+
+    const options = {
+        uri: addTrainURI,
+        method: verb,
+        headers: {
+            'Ocp-Apim-Subscription-Key': LUIS_authoringKey
+        },
+        json: true,
+        body: null // The body can be empty for a training request
+    };
+
+    const response = await request(options)
+    console.log("train " + verb + ":\n" + JSON.stringify(response, null, 2));
+}
+```
 
 
 

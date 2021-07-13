@@ -1,0 +1,16 @@
+
+
+
+    {
+        "text": "Outlook, not receiving fax confimations",
+        "intentName": "Intent.OutlookIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Outlook",
+                "startCharIndex": 0,
+                "endCharIndex": 6
+            }
+        ]
+    }
+    
+  
