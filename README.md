@@ -9,14 +9,14 @@
 
 <!-- Add your content here -->
 ## Our Progress
-- [x] Retrieved Utterances from Power BI
-- [x] Added utterances to batch files (600)
-- [x] Created pipeline on adding utterances through Excel
-- [x] Created JavaScript script that adds and trains new utterances into model
-- [x] Created pipeline for adding entities and its sub-entities to utterances through Excel
-- [] Create different models with different entities to test
-- [] Framework for testing and analyzing/improving prediction score and/or accuracy
-- [] Framework for training completed data using python script
+- :heavy_check_mark: Retrieved Utterances from Power BI
+- :heavy_check_mark: Added utterances to batch files (600)
+- :heavy_check_mark: Created pipeline on adding utterances through Excel
+- :heavy_check_mark: Created JavaScript script that adds and trains new utterances into model
+- :heavy_check_mark: Created pipeline for adding entities and its sub-entities to utterances through Excel
+- :x: Create different models with different entities to test
+- :x: Framework for testing and analyzing/improving prediction score and/or accuracy
+- :x: Framework for training completed data using python script
 
 
 ## How It's Done
