@@ -10,12 +10,19 @@
 <!-- Add your content here -->
 ## Our Progress
 - :white_check_mark: Retrieved Utterances from Power BI
+
 - :white_check_mark: Added utterances to batch files (600)
+
 - :white_check_mark: Created pipeline on adding utterances through Excel
+
 - :white_check_mark: Created JavaScript script that adds and trains new utterances into model
+
 - :white_check_mark: Created pipeline for adding entities and its sub-entities to utterances through Excel
+
 - :x: Create different models with different entities to test
+
 - :x: Framework for testing and analyzing/improving prediction score and/or accuracy
+
 - :x: Framework for training completed data using python script
 
 
