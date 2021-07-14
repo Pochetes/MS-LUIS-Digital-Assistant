@@ -30,16 +30,18 @@
 Main framework:
 
 **Testing** team will:
-    - Test random batch files with utterances to see how model behaves.
-    - Analyze results and pinpoint bottlenecks in data (i.e. wrong labeled entity, low prediction score, etc.).
-    - Communicate those results with training team to improve training data.
-    - Repeat steps 1 - 3 with different batch files and different models.
+
+* Test random batch files with utterances to see how model behaves.
+* Analyze results and pinpoint bottlenecks in data (i.e. wrong labeled entity, low prediction score, etc.).
+* Communicate those results with training team to improve training data.
+* Repeat steps 1 - 3 with different batch files and different models.
 
 **Training** team will:
-    - Use Excel pipeline to structure JSON files with correct utterances and its respective entities/sub-entities.
-    - Target specific utterances and entities based on model behavior.
-    - Use JavaScript automation script to send and train the data into LUIS endpoint.
-    - Repeat steps 1 - 3 with different training sets and different models.
+
+* Use Excel pipeline to structure JSON files with correct utterances and its respective entities/sub-entities.
+* Target specific utterances and entities based on model behavior.
+* Use JavaScript automation script to send and train the data into LUIS endpoint.
+* Repeat steps 1 - 3 with different training sets and different models.
 
 
 ## JavaScript Automation Process
