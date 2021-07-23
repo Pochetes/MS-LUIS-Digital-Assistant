@@ -41,7 +41,7 @@
     },
     {
         "text": "How do I set up dual monitors?",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -66,7 +66,7 @@
     },
     {
         "text": "Laptop is coming apart at the seams.",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "text": "Request for Logitech G Hub for keyboard function",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -166,7 +166,7 @@
     },
     {
         "text": "Printer not working",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {

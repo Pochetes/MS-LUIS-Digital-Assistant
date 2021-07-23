@@ -91,7 +91,7 @@
     },
     {
         "text": "Can I get help setting up my monitors? ",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "text": "how do i set up docking station",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -286,7 +286,7 @@
     },
     {
         "text": "Trying to connect second monitor",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {

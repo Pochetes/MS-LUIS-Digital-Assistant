@@ -191,7 +191,7 @@
     },
     {
         "text": "i think my webcam is not working for me",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
@@ -261,7 +261,7 @@
     },
     {
         "text": "new computer setup problems",
-        "intent": "None",
+        "intent": "Intent.HardWareIssues",
         "entities": []
     },
     {
