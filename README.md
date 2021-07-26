@@ -1,4 +1,4 @@
-# LUIS Chatbot | Models | Scripts | Testing | Training |
+# LUIS Chatbot - Tech Support Digital Assistant
 <!-- forge.header -->
 [![CloudForge Console][console_shield]][console_url] [![Open PRs][pr_shield]][pr_url]
 
@@ -21,10 +21,12 @@
 
 - :x: Create different models with different intents to test
 
-- :x: Framework for testing and analyzing/improving prediction score and/or accuracy
+- :heavy_check_mark: Framework for testing and analyzing/improving prediction score and/or accuracy
 
-- :x: Framework for training completed data using JS script
+- :heavy_check_mark: Framework for training completed data using JS script
 
+## Pipeline Visual (Coming Soon)
+TBD
 
 ## How It's Done
 Main framework:
@@ -90,13 +92,15 @@ Save the file and on the CLI, run `node transferDataScript.js` and expect to see
 ### What is an f-score?
 In simple terms, an f-score is a measure of a test's accuracy. According to wikipedia.com, it is calculated from the precision and recall of the test.
 
+![F-Score Visualization](./public/images/truefalsepositives.png)
+
 **Precision** is:
 
-(number of true positives) / (number of true AND false positives)
+`(number of true positives) / (number of true AND false positives)`
 
 **Recall** is:
 
-(number of true positives) / (number of all samples that SHOULD have been identified as positive)
+`(number of true positives) / (number of all samples that SHOULD have been identified as positive)`
 
 ### Use Case
 The f-score has helped us gauge at the digital assistant's intelligence. It gives us a rough number of how many utterances it's **correctly** labeling.
@@ -105,7 +109,7 @@ In our case, we calculated the average f-scores for all of the performances in e
 
 `fScore_Avg = (total f-score for each intent) / (all 11 intents)`
 
-### Our Results (subject to change)
+## Our Results (subject to change)
 
 [insert f-score average graph here]
 
