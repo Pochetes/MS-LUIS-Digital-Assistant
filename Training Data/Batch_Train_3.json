@@ -1,0 +1,850 @@
+[
+    {
+        "text": "unable to connect to printer",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 10,
+                "endPos": 28
+            }
+        ]
+    },
+    {
+        "text": "Printer will not print",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 0,
+                "endPos": 7,
+                "children": [
+                    {
+                        "entity": "Printer",
+                        "startPos": 0,
+                        "endPos": 7
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Print",
+                        "startPos": 0,
+                        "endPos": 22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i think my webcam is not working for me",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 11,
+                "endPos": 32,
+                "children": [
+                    {
+                        "entity": "webcam",
+                        "startPos": 11,
+                        "endPos": 32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "printer wont print",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 0,
+                "endPos": 18
+            }
+        ]
+    },
+    {
+        "text": "Can you replace my swollen or pillowed laptop battery please?",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 19,
+                "endPos": 53,
+                "children": [
+                    {
+                        "entity": "Physical Damage",
+                        "startPos": 19,
+                        "endPos": 53
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 39,
+                "endPos": 45,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 39,
+                        "endPos": 45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "computer speakers popping and crackling",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "List.Hardware.All",
+                "startPos": 0,
+                "endPos": 17,
+                "children": [
+                    {
+                        "entity": "Speakers",
+                        "startPos": 0,
+                        "endPos": 17
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 9,
+                "endPos": 39,
+                "children": [
+                    {
+                        "entity": "Speakers",
+                        "startPos": 9,
+                        "endPos": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "my docking station isn't working",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 3,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Docking Station",
+                        "startPos": 3,
+                        "endPos": 18
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 3,
+                "endPos": 32
+            }
+        ]
+    },
+    {
+        "text": "Printer not working",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "List.Hardware.All",
+                "startPos": 0,
+                "endPos": 7,
+                "children": [
+                    {
+                        "entity": "Printer",
+                        "startPos": 0,
+                        "endPos": 7
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 0,
+                "endPos": 19
+            }
+        ]
+    },
+    {
+        "text": "webcam not funtioning",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareActions",
+                "startPos": 0,
+                "endPos": 21,
+                "children": [
+                    {
+                        "entity": "webcam",
+                        "startPos": 0,
+                        "endPos": 21
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Laptop battery bulging",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "List.Hardware.All",
+                "startPos": 7,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "laptop",
+                        "startPos": 7,
+                        "endPos": 22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Webcam was working then turned black all of the sudden.",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 0,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "Webcam",
+                        "startPos": 0,
+                        "endPos": 6
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 7,
+                "endPos": 36
+            }
+        ]
+    },
+    {
+        "text": "Laptop has an opening between the keyboard and the bottom like bulged out",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 0,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 0,
+                        "endPos": 6
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 14,
+                "endPos": 73,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 14,
+                        "endPos": 73
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "can I use my personal keyboard and mouse apple products",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 13,
+                "endPos": 34,
+                "children": [
+                    {
+                        "entity": "Keyboard",
+                        "startPos": 13,
+                        "endPos": 34
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 35,
+                "endPos": 40,
+                "children": [
+                    {
+                        "entity": "Mouse",
+                        "startPos": 35,
+                        "endPos": 40
+                    }
+                ]
+            },
+            {
+                "entity": "List.Hardware.All",
+                "startPos": 41,
+                "endPos": 46
+            }
+        ]
+    },
+    {
+        "text": "need new monitor",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 9,
+                "endPos": 16,
+                "children": [
+                    {
+                        "entity": "Monitor",
+                        "startPos": 9,
+                        "endPos": 16
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 16,
+                "children": [
+                    {
+                        "entity": "Logistics",
+                        "startPos": 0,
+                        "endPos": 16
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "install new monitor",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 0,
+                        "endPos": 19
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 12,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "Monitor",
+                        "startPos": 12,
+                        "endPos": 19
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i think i have swollen battery, based on how my laptop is separating",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 15,
+                "endPos": 30,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 15,
+                        "endPos": 30
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 48,
+                "endPos": 68,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 48,
+                        "endPos": 68
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 48,
+                "endPos": 54,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 48,
+                        "endPos": 54
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I just noticed yesterday that my laptop is bowed",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 33,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 33,
+                        "endPos": 48
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 33,
+                "endPos": 39,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 33,
+                        "endPos": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Compatible docking station with laptop",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 11,
+                "endPos": 26,
+                "children": [
+                    {
+                        "entity": "DockingStation",
+                        "startPos": 11,
+                        "endPos": 26
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 32,
+                "endPos": 38,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 32,
+                        "endPos": 38
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 38,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 0,
+                        "endPos": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My laptop no longer recognizes my wireless mouse",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 3,
+                "endPos": 9,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 3,
+                        "endPos": 9
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 34,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "Mouse",
+                        "startPos": 34,
+                        "endPos": 48
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 3,
+                "endPos": 31,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 3,
+                        "endPos": 31
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My laptop battery is quite swollen.",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 3,
+                "endPos": 9
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 3,
+                "endPos": 34,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 3,
+                        "endPos": 34
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Battery swelling on laptop",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 16,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 0,
+                        "endPos": 16
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 20,
+                "endPos": 26,
+                "children": [
+                    {
+                        "entity": "Computer",
+                        "startPos": 20,
+                        "endPos": 26
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My laptop has swelled and separated and is coming apart.",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 3,
+                "endPos": 9,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 3,
+                        "endPos": 9
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 14,
+                "endPos": 55,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 14,
+                        "endPos": 55
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Docking station inquiry",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 0,
+                "endPos": 15,
+                "children": [
+                    {
+                        "entity": "DockingStation",
+                        "startPos": 0,
+                        "endPos": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Laptop question",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 0,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 0,
+                        "endPos": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i set up dual monitors and now i cant hear through my headsets",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 9,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Monitor",
+                        "startPos": 9,
+                        "endPos": 22
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 31,
+                "endPos": 62
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 54,
+                "endPos": 62,
+                "children": [
+                    {
+                        "entity": "Headset",
+                        "startPos": 54,
+                        "endPos": 62
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Setting up printer",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 0,
+                        "endPos": 18
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 11,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Printer",
+                        "startPos": 11,
+                        "endPos": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I'm the victim of a pillowed battery on my HP laptop.",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 20,
+                "endPos": 36,
+                "children": [
+                    {
+                        "entity": "PhysicalDamage",
+                        "startPos": 20,
+                        "endPos": 36
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 43,
+                "endPos": 52,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 43,
+                        "endPos": 52
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "my computer stopped working - need replacement",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 3,
+                "endPos": 11
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 3,
+                "endPos": 27
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 30,
+                "endPos": 46,
+                "children": [
+                    {
+                        "entity": "Logistics",
+                        "startPos": 30,
+                        "endPos": 46
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "how can I connect my home printer to the USB",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 10,
+                "endPos": 33,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 10,
+                        "endPos": 33
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 21,
+                "endPos": 33,
+                "children": [
+                    {
+                        "entity": "Printer",
+                        "startPos": 21,
+                        "endPos": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "  My laptop is not holding a charge.",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 5,
+                "endPos": 35,
+                "children": [
+                    {
+                        "entity": "Power Issues",
+                        "startPos": 5,
+                        "endPos": 35
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 5,
+                "endPos": 11,
+                "children": [
+                    {
+                        "entity": "Laptop",
+                        "startPos": 5,
+                        "endPos": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i got a new headset and it is not appearing in sound",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 12,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "Headset",
+                        "startPos": 12,
+                        "endPos": 19
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 8,
+                "endPos": 54,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 8,
+                        "endPos": 54
+                    }
+                ]
+            }
+        ]
+    }
+]
