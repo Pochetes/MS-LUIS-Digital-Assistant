@@ -1,0 +1,15 @@
+{
+  "name": "haae_luis",
+  "version": "1.0.0",
+  "description": "<!-- forge.header -->\r [![CloudForge Console][console_shield]][console_url] [![Open PRs][pr_shield]][pr_url]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.forge.lmig.com/scm/haae/haae_luis.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
