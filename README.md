@@ -69,6 +69,56 @@ const train = async (verb) => {
 }
 ```
 
+## How to use
+To use the `transferDataScript.js` file, make sure to connect to the node environment using
+
+`npm init`
+
+or
+
+copying `C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"` into the command prompt.
+
+* Add the utterance data into the `utterances` variable.
+* Adjust all endpoint URLS --> `LUIS_appId`, `LUIS_authoringKey`, `LUIS_endpoint`, and `LUIS_versionId` to connect to the correct bot.
+
+Save the file and on the CLI, run `node transferDataScript.js` and expect to see "done" OR a 400 error.
+
+**Alternative method of sending/training utterance data TBA**
+
+## LUIS Chatbot Metrics
+
+### What is an f-score?
+In simple terms, an f-score is a measure of a test's accuracy. According to wikipedia.com, it is calculated from the precision and recall of the test.
+
+**Precision** is:
+
+(number of true positives) / (number of true AND false positives)
+
+**Recall** is:
+
+(number of true positives) / (number of all samples that SHOULD have been identified as positive)
+
+### Use Case
+The f-score has helped us gauge at the digital assistant's intelligence. It gives us a rough number of how many utterances it's **correctly** labeling.
+
+In our case, we calculated the average f-scores for all of the performances in each intent.
+
+`fScore_Avg = (total f-score for each intent) / (all 11 intents)`
+
+### Our Results (subject to change)
+
+[insert f-score average graph here]
+
+[insert correct/incorrect/unclear prediction graph here per version]
+
+
+
+
+
+
+
+
+
 
 
 <!-- forge.links -->
