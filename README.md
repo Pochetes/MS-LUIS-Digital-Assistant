@@ -26,7 +26,7 @@
 - :heavy_check_mark: Framework for training completed data using JS script
 
 ## Pipeline Visual (Coming Soon)
-TBD
+![LUIS Pipeline](./public/images/LUISpipeline.png)
 
 ## How It's Done
 Main framework:
