@@ -229,7 +229,7 @@
     {
         "text": "need to connect docking station",
         "intentName": "Intent.HardWareIssues",
-        "entityLabels": []
+        "entityLabels": [] 
     },
     {
         "text": "local sales office printer not recognizing badges",
