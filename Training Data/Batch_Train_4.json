@@ -1,0 +1,2625 @@
+[
+    {
+        "text": "Replacement computer backup/migrate data",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "please restart VDI for n1545368",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "I am working with a group of new hires to setup the Recancel Macro.  ",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Git error when cloning repo",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "update computer",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Need gold disk on USB",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "status of ticket",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "What is the IT phone number?",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "unable to attach a large document to the file",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "i'm having issues with microsoft teams",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "3127236500",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "What am I supposed to do with this?",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Application not sized to screen",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "application portal",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "good morning",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "Liberty Mutual Application Portal issues with Adobe Acrobat",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "good morning",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "good morning",
+        "intent": "None",
+        "entities": []
+    },
+    {
+        "text": "i need help setting up the new displays configuration",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 12,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Setup",
+                        "startPos": 12,
+                        "endPos": 22
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 31,
+                "endPos": 53,
+                "children": [
+                    {
+                        "entity": "Monitor",
+                        "startPos": 31,
+                        "endPos": 53
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "display settings changed and not giving option to change back",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 0,
+                "endPos": 16,
+                "children": [
+                    {
+                        "entity": "Monitor",
+                        "startPos": 0,
+                        "endPos": 16
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I am having issues with my computer",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 12,
+                "endPos": 35
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 27,
+                "endPos": 35
+            }
+        ]
+    },
+    {
+        "text": "dual monitor setup",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "printer setup trouble",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "computer wont charge",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "docking station is not recognizing my other monitor's",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Laptop Out of Warranty",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "need new laptop battery showing 7% and it is plugged in but going down",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Replacement Laptop",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "the charger that came with my work laptop does not fit the charging port",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Computer warranty/ computer issues",
+        "intent": "Intent.HardWareIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 0,
+                "endPos": 17,
+                "children": [
+                    {
+                        "entity": "Warranty",
+                        "startPos": 0,
+                        "endPos": 17
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 0,
+                "endPos": 8
+            }
+        ]
+    },
+    {
+        "text": "my laptop needs replaced due to the case splitting from the battery",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Dock+monitor hibernation issues.",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "need to connect docking station",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "local sales office printer not recognizing badges",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "monitor black",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "monitors are turning on and off. Losing video signal",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Monitor are still cutting on and off. Just for a longer period of time now",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "monitors aren't working",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Need to replace out of warranty laptop",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "My laptop is bulging and the mouse pad is starting to separate.",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "dual monitors just stopped working",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "disposal of laptop out of warranty",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Warranty is expired",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "exchange to a wireless keyboard/ mouse and correct laptop docking station.",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "Laptop keyboard is broken on multiple letters requesting replacement",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "laptop issues w/ mouse",
+        "intent": "Intent.HardWareIssues",
+        "entities": []
+    },
+    {
+        "text": "I have a new iphone and need to get ping setup again.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 9,
+                "endPos": 52,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 9,
+                        "endPos": 52
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 13,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 13,
+                        "endPos": 19
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need to set up my personal phone for company use.  iphone.   Thanks",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 8,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 8,
+                        "endPos": 48
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 51,
+                "endPos": 57,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 51,
+                        "endPos": 57
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My phone is not working.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 3,
+                "endPos": 23
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 3,
+                "endPos": 8,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 3,
+                        "endPos": 8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Need help setting up mobile phone for email and team access via phone",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 10,
+                "endPos": 33,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 10,
+                        "endPos": 33
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 21,
+                "endPos": 33,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 21,
+                        "endPos": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Unlock a mobile device",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 22
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 9,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 9,
+                        "endPos": 22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I need a MobileIron registration PIN for my new work-issued iPhone",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "List.Apps.All",
+                "startPos": 9,
+                "endPos": 19
+            },
+            {
+                "entity": "List.Hardware.All",
+                "startPos": 9,
+                "endPos": 19
+            },
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 9,
+                "endPos": 36,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 9,
+                        "endPos": 36
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I forgot my password for my Iphone",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 2,
+                "endPos": 20,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 2,
+                        "endPos": 20
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 28,
+                "endPos": 34,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 28,
+                        "endPos": 34
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "forgot my passcode to my new work iPhone and need to reset it.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 18
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 29,
+                "endPos": 40,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 29,
+                        "endPos": 40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iphone restart",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 0,
+                "endPos": 6
+            }
+        ]
+    },
+    {
+        "text": "Need iphone unlocked",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 5,
+                "endPos": 11,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 5,
+                        "endPos": 11
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 12,
+                "endPos": 20,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 12,
+                        "endPos": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I received a new phone that doesn't have service",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 17,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 17,
+                        "endPos": 22
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 17,
+                "endPos": 48
+            }
+        ]
+    },
+    {
+        "text": "forgot password to work account on android byomd need to reset",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 62,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 62
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 35,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "Android",
+                        "startPos": 35,
+                        "endPos": 48
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need to set up a new work iphone and need registration pin for mobileiron",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 8,
+                "endPos": 73,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 8,
+                        "endPos": 73
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I need a new mobile registration pin",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 9,
+                "endPos": 36,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 9,
+                        "endPos": 36
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 13,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 13,
+                        "endPos": 19
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need PIN for mobileiron",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 23,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 0,
+                        "endPos": 23
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I'm having an issue installing MobileIron on my new, company-issued iPhone",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 14,
+                "endPos": 41,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 14,
+                        "endPos": 41
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 53,
+                "endPos": 74,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 53,
+                        "endPos": 74
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My iphone reset.  I am trying to log back into mobileiron but need a pin.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 23,
+                "endPos": 72,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 23,
+                        "endPos": 72
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 3,
+                "endPos": 9,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 3,
+                        "endPos": 9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Forgot phone password, phone is now disabled",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 21,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 21
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 7,
+                "endPos": 12,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 7,
+                        "endPos": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "how to set up BYOM",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 7,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 7,
+                        "endPos": 18
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 14,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 14,
+                        "endPos": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I have a NEW PHONE - and need to get MobileIron, etc. set up",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 13,
+                "endPos": 18,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 13,
+                        "endPos": 18
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 25,
+                "endPos": 60,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 25,
+                        "endPos": 60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I am trying to set up my iPhone for BYOM",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 5,
+                "endPos": 40,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 5,
+                        "endPos": 40
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 25,
+                "endPos": 31,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 25,
+                        "endPos": 31
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 36,
+                "endPos": 40
+            }
+        ]
+    },
+    {
+        "text": "trying to set up my new iphone but running into some issues.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 10,
+                "endPos": 30,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 10,
+                        "endPos": 30
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 24,
+                "endPos": 30,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 24,
+                        "endPos": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "how do I reset my password on my work cell phone? ",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 9,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 9,
+                        "endPos": 48
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 33,
+                "endPos": 48,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 33,
+                        "endPos": 48
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iPhone is disabled.",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 19,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 19
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 0,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 0,
+                        "endPos": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iPhone locked",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 13,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 13
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 0,
+                "endPos": 13,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 0,
+                        "endPos": 13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Need help unlocking iphone",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 5,
+                "endPos": 26,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 5,
+                        "endPos": 26
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 20,
+                "endPos": 26,
+                "children": [
+                    {
+                        "entity": "iPhone",
+                        "startPos": 20,
+                        "endPos": 26
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "replacement phone activation",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 12,
+                "endPos": 28,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 12,
+                        "endPos": 28
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 12,
+                "endPos": 17,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 12,
+                        "endPos": 17
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "mobileiron mdm activation communication",
+        "intent": "Intent.MobileManagement",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 39,
+                "children": [
+                    {
+                        "entity": "Register",
+                        "startPos": 0,
+                        "endPos": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Binder not generating in iUnderwrite",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 21,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 0,
+                        "endPos": 21
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 25,
+                "endPos": 36
+            }
+        ]
+    },
+    {
+        "text": "Unable to substitute vehicle receiving error while rating",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 29,
+                "endPos": 57,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 29,
+                        "endPos": 57
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "CB iUW (Rating) Crime rating in iUW error",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 3,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "iUnderwrite",
+                        "startPos": 3,
+                        "endPos": 6
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 16,
+                "endPos": 41,
+                "children": [
+                    {
+                        "entity": "Rating Issue",
+                        "startPos": 16,
+                        "endPos": 41
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iUW (Offer) Proposal not generating in iUnderwrite. - IDM issue",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 3,
+                "children": [
+                    {
+                        "entity": "iUnderwrite",
+                        "startPos": 0,
+                        "endPos": 3
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 12,
+                "endPos": 50,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 12,
+                        "endPos": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating issue",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.issues.GRS",
+                "startPos": 0,
+                "endPos": 12,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 0,
+                        "endPos": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "receiving an error while rerating . license number is required field.",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 13,
+                "endPos": 33,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 13,
+                        "endPos": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating concerns",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 15,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 0,
+                        "endPos": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "RAD Compass (Rating) Rating Failed A7284122.2",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 4,
+                "endPos": 11,
+                "children": [
+                    {
+                        "entity": "Compass",
+                        "startPos": 4,
+                        "endPos": 11
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 21,
+                "endPos": 34,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 21,
+                        "endPos": 34
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating system",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 13,
+                "children": [
+                    {
+                        "entity": "Rating Issue",
+                        "startPos": 0,
+                        "endPos": 13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Getting error in Change policy screen while rating the premium",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 8,
+                "endPos": 62,
+                "children": [
+                    {
+                        "entity": "Rating Issue",
+                        "startPos": 8,
+                        "endPos": 62
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "RAD Compass (Rating) Rating in Progress A7287460.1.",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 4,
+                "endPos": 11,
+                "children": [
+                    {
+                        "entity": "Compass",
+                        "startPos": 4,
+                        "endPos": 11
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 21,
+                "endPos": 39,
+                "children": [
+                    {
+                        "entity": "Rating Issue",
+                        "startPos": 21,
+                        "endPos": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i am rerating a policy and getting a huge error message i cannot bypass.",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 5,
+                "endPos": 47,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 5,
+                        "endPos": 47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "CB iUW  (Offer) proposal not generating - due to PW",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 3,
+                "endPos": 6,
+                "children": [
+                    {
+                        "entity": "iUnderwrite",
+                        "startPos": 3,
+                        "endPos": 6
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 16,
+                "endPos": 39,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 16,
+                        "endPos": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Compass: Unable to send ratings to market - receiving 404 error",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 7,
+                "children": [
+                    {
+                        "entity": "Compass",
+                        "startPos": 0,
+                        "endPos": 7
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 9,
+                "endPos": 41,
+                "children": [
+                    {
+                        "entity": "Rating issue",
+                        "startPos": 9,
+                        "endPos": 41
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i am having some issues with avaya having a lot of static on phone calls ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "last 2 calls I have not been able to hear anything ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Calls",
+                "startPos": 0,
+                "endPos": 51,
+                "children": [
+                    {
+                        "entity": "SoundQualityIssues",
+                        "startPos": 0,
+                        "endPos": 51
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "headset volume is terrible",
+        "intent": "Intent.CallQualityIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 0,
+                "endPos": 7,
+                "children": [
+                    {
+                        "entity": "headset",
+                        "startPos": 0,
+                        "endPos": 7
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.Calls",
+                "startPos": 0,
+                "endPos": 26,
+                "children": [
+                    {
+                        "entity": "SoundQualityIssues",
+                        "startPos": 0,
+                        "endPos": 26
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "avaya - when dialing out there is no sound and i cant hear anyone",
+        "intent": "Intent.CallQualityIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.CommunicationsApplications",
+                "startPos": 0,
+                "endPos": 5,
+                "children": [
+                    {
+                        "entity": "Avaya",
+                        "startPos": 0,
+                        "endPos": 5
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.Calls",
+                "startPos": 34,
+                "endPos": 65,
+                "children": [
+                    {
+                        "entity": "SoundQualityIssues",
+                        "startPos": 34,
+                        "endPos": 65
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "avaya muting ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.CommunicationsApplications",
+                "startPos": 0,
+                "endPos": 5,
+                "children": [
+                    {
+                        "entity": "Avaya",
+                        "startPos": 0,
+                        "endPos": 5
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Issues.Calls",
+                "startPos": 0,
+                "endPos": 13,
+                "children": [
+                    {
+                        "entity": "SoundQualityIssues",
+                        "startPos": 0,
+                        "endPos": 13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Every call I get they say they hear an echo",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "no audio coming to headset",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Headset not working. Cannot hear calls",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": " when i take calls in avaya the customer says i sound muffled",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "echo in headset",
+        "intent": "Intent.CallQualityIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Calls",
+                "startPos": 0,
+                "endPos": 15,
+                "children": [
+                    {
+                        "entity": "SoundQualityIssues",
+                        "startPos": 0,
+                        "endPos": 15
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.ExternalDevice",
+                "startPos": 8,
+                "endPos": 15,
+                "children": [
+                    {
+                        "entity": "Headset",
+                        "startPos": 8,
+                        "endPos": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "avaya not working",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "I am having Avaya issues. I keep dropping calls. ",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "no sound coming through headset",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "sound issues",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Not able to make call",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "reduce microphone sensitivity on headset",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Callers can't hear me. Avaya marquee shows me in ACW.",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Avaya set up",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "Trouble with headset mic not functioning",
+        "intent": "Intent.CallQualityIssues",
+        "entities": []
+    },
+    {
+        "text": "iUnderwrite SLEO and LAW rating tools are not saving or rating",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 37
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 32,
+                "endPos": 62
+            }
+        ]
+    },
+    {
+        "text": "iUndewrite - Crime Rating Premiums tab is unable to be accessed.",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 34
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 64
+            }
+        ]
+    },
+    {
+        "text": "Receiving an error as address_city is required.unable to rerate the policy",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 18
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 47,
+                "endPos": 74
+            }
+        ]
+    },
+    {
+        "text": "Compass rating error",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 7
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 8,
+                "endPos": 20
+            }
+        ]
+    },
+    {
+        "text": "iUnderwrite experience rating calculation not calculating",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 11
+            },
+            {
+                "entity": "ML.Issues.Calculation",
+                "startPos": 12,
+                "endPos": 57
+            }
+        ]
+    },
+    {
+        "text": "issue with generating forms in iunderwrite",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "I am unable to generate a proposal in iUnderwrite.",
+        "intent": "Intent.RatingIssues",
+        "entities": []
+    },
+    {
+        "text": "Property quotes are crashing and disappearing. Not pulling up rating terr",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 73
+            }
+        ]
+    },
+    {
+        "text": "Can' Access rating",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 18
+            }
+        ]
+    },
+    {
+        "text": "Compass rating error",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 7
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 8,
+                "endPos": 20
+            }
+        ]
+    },
+    {
+        "text": "Got validation error while rating the premium in change policy screen",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 4,
+                "endPos": 45
+            },
+            {
+                "entity": "ML.Issues.Quoting",
+                "startPos": 49,
+                "endPos": 69
+            }
+        ]
+    },
+    {
+        "text": "Compass Rating Errors Veh #114: No description . contact COMPASS SUPPORT",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 21
+            }
+        ]
+    },
+    {
+        "text": "Compass rating isn't pull all the premium though to iUW.",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 7
+            },
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 8,
+                "endPos": 55
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 52,
+                "endPos": 55
+            }
+        ]
+    },
+    {
+        "text": "rating system",
+        "intent": "Intent.RatingIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 0,
+                "endPos": 13
+            }
+        ]
+    },
+    {
+        "text": "I am unable to login to Navigator",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRMClaims",
+                "startPos": 24,
+                "endPos": 33
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 5,
+                "endPos": 33
+            }
+        ]
+    },
+    {
+        "text": "I need help to reset my RACF ID. It has been revoked.",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 15,
+                "endPos": 31
+            }
+        ]
+    },
+    {
+        "text": "Cannot access",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 13
+            }
+        ]
+    },
+    {
+        "text": "Need to be assigned a phone number. new employee.",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 49
+            }
+        ]
+    },
+    {
+        "text": "required access",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 15
+            }
+        ]
+    },
+    {
+        "text": "RequestITform#6004 access declined.Needs to be assigned to RIT remedy team.",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 19,
+                "endPos": 34
+            },
+            {
+                "entity": "ML.Other.HelpDesk",
+                "startPos": 59,
+                "endPos": 74
+            }
+        ]
+    },
+    {
+        "text": "request it",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Other.HelpDesk",
+                "startPos": 0,
+                "endPos": 10
+            }
+        ]
+    },
+    {
+        "text": "New imaged computer - cannot login in to LM domain using home network",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 22,
+                "endPos": 50
+            },
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 57,
+                "endPos": 69
+            }
+        ]
+    },
+    {
+        "text": "I just returned from Leave 6/23/2021 I had access to MCDC. Now : SSO Error",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 37,
+                "endPos": 52
+            },
+            {
+                "entity": "ML.Apps.MCDC",
+                "startPos": 53,
+                "endPos": 57
+            }
+        ]
+    },
+    {
+        "text": "Potentially locked out of VIA, enterprise password not working with ACES",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 12,
+                "endPos": 22
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 31,
+                "endPos": 62
+            }
+        ]
+    },
+    {
+        "text": "I am unable to sign into new Avaya after update ",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 5,
+                "endPos": 24
+            },
+            {
+                "entity": "ML.Apps.CommunicationsApplications",
+                "startPos": 29,
+                "endPos": 34
+            }
+        ]
+    },
+    {
+        "text": "RACF id not working",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 5,
+                "endPos": 19
+            }
+        ]
+    },
+    {
+        "text": "i need to get access to via/aces",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 2,
+                "endPos": 23
+            }
+        ]
+    },
+    {
+        "text": "need midway access",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 18
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 5,
+                "endPos": 11
+            }
+        ]
+    },
+    {
+        "text": "Temporary token issues",
+        "intent": "Intent.AccessIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 22
+            }
+        ]
+    },
+    {
+        "text": "Outlook, not receiving fax confimations",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 0,
+                "endPos": 7
+            },
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 0,
+                "endPos": 39
+            }
+        ]
+    },
+    {
+        "text": "Add EnterpriseIC_operations@liberty.mutual to Legal Communications mailbox",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 43,
+                "endPos": 74
+            }
+        ]
+    },
+    {
+        "text": "I started a new assignment and my manager added me to a mailbox in Outlook.",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 42,
+                "endPos": 74
+            }
+        ]
+    },
+    {
+        "text": "....i am getting the following error message when i start up outlook...",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 31,
+                "endPos": 44
+            },
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 52,
+                "endPos": 68
+            }
+        ]
+    },
+    {
+        "text": "I RECENTLY ADDED SOME MAILBOXES IN MY EMAIL AND THEY WONT EXPAND",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 22,
+                "endPos": 43
+            },
+            {
+                "entity": "ML.Issues.Performance",
+                "startPos": 44,
+                "endPos": 64
+            }
+        ]
+    },
+    {
+        "text": "Microsoft Teams or Outlook is displaying an error message",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 0,
+                "endPos": 26
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 30,
+                "endPos": 57
+            }
+        ]
+    },
+    {
+        "text": "MIcrosoft Outlook will not open",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 0,
+                "endPos": 17
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 18,
+                "endPos": 31
+            }
+        ]
+    },
+    {
+        "text": "How do I gain access to a team member's outlook out on leave",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 9,
+                "endPos": 47
+            },
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 40,
+                "endPos": 47
+            }
+        ]
+    },
+    {
+        "text": "Need help to add member to DL",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 13,
+                "endPos": 26
+            }
+        ]
+    },
+    {
+        "text": "create rule in outlook",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 0,
+                "endPos": 22
+            }
+        ]
+    },
+    {
+        "text": "change email name,",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 0,
+                "endPos": 17
+            }
+        ]
+    },
+    {
+        "text": "My team meeting option in outlook has disappeared. How do I get this back?",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 3,
+                "endPos": 7
+            },
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 26,
+                "endPos": 33
+            },
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 3,
+                "endPos": 22
+            }
+        ]
+    },
+    {
+        "text": "Meeting changes are not updating within Outlook.",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 0,
+                "endPos": 48
+            }
+        ]
+    },
+    {
+        "text": "i'm having trouble with teams/outlook syncing for attachements",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 24,
+                "endPos": 29
+            },
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 30,
+                "endPos": 37
+            },
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 11,
+                "endPos": 45
+            }
+        ]
+    },
+    {
+        "text": "outlook issue",
+        "intent": "Intent.OutlookIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Outlook",
+                "startPos": 0,
+                "endPos": 13
+            }
+        ]
+    },
+    {
+        "text": "Unable to cancel the policy - LJ1-268-603278-10",
+        "intent": "Intent.GRMIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRMClaims",
+                "startPos": 0,
+                "endPos": 27
+            }
+        ]
+    },
+    {
+        "text": "upload password protected doc to navigator. link not loading",
+        "intent": "Intent.GRMIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 44,
+                "endPos": 60
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 7,
+                "endPos": 29
+            },
+            {
+                "entity": "ML.Apps.GRMQuoting",
+                "startPos": 33,
+                "endPos": 42
+            }
+        ]
+    },
+    {
+        "text": "Unable to reinstate the current policy of H42-251-015607-75",
+        "intent": "Intent.GRMIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Quoting",
+                "startPos": 0,
+                "endPos": 38,
+                "children": [
+                    {
+                        "entity": "UnabletoBind",
+                        "startPos": 0,
+                        "endPos": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "EZ documents in Navigator",
+        "intent": "Intent.GRMIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRMClaims",
+                "startPos": 16,
+                "endPos": 25
+            }
+        ]
+    },
+    {
+        "text": "Need help getting access to Tableau for GRS.  Thanks",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 10,
+                "endPos": 35
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 28,
+                "endPos": 35
+            }
+        ]
+    },
+    {
+        "text": "Unable to generate proposal within iUW",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Performance",
+                "startPos": 0,
+                "endPos": 38
+            },
+            {
+                "entity": "ML.Apps.GRMQuoting",
+                "startPos": 35,
+                "endPos": 38
+            }
+        ]
+    },
+    {
+        "text": "cant generate signed forms in Iuw",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Performance",
+                "startPos": 0,
+                "endPos": 33
+            },
+            {
+                "entity": "ML.Apps.GRMQuoting",
+                "startPos": 30,
+                "endPos": 33
+            }
+        ]
+    },
+    {
+        "text": "Please have umb lob removed from Midway",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 33,
+                "endPos": 39
+            }
+        ]
+    },
+    {
+        "text": "Can you tell me if there is a compass release scheduled for this weekend?",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 30,
+                "endPos": 37
+            }
+        ]
+    },
+    {
+        "text": "HOT ITEM!  iUW",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.GRMQuoting",
+                "startPos": 11,
+                "endPos": 14
+            }
+        ]
+    },
+    {
+        "text": "Missing crimes form from catalog in iUW",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Quoting",
+                "startPos": 0,
+                "endPos": 39
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 36,
+                "endPos": 39
+            }
+        ]
+    },
+    {
+        "text": "Incorrect DNB in Midway.",
+        "intent": "Intent.GRSIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.GRS",
+                "startPos": 0,
+                "endPos": 24
+            },
+            {
+                "entity": "ML.Apps.GRS",
+                "startPos": 17,
+                "endPos": 23
+            }
+        ]
+    },
+    {
+        "text": "need help with pulse connect token keys",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 15,
+                "endPos": 39
+            }
+        ]
+    },
+    {
+        "text": "RSA tokien ID is not accepting",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 0,
+                "endPos": 30
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 0,
+                "endPos": 10
+            }
+        ]
+    },
+    {
+        "text": "Replace Secure Token process got stuck at select email/SMS step.",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 0,
+                "endPos": 20
+            },
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 21,
+                "endPos": 63
+            }
+        ]
+    },
+    {
+        "text": "i am having trouble setting up my RSA token",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 12,
+                "endPos": 30
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 34,
+                "endPos": 43
+            }
+        ]
+    },
+    {
+        "text": "My pulse secure is asking me for a token that I'm not familiar with",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 3,
+                "endPos": 15
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 19,
+                "endPos": 40
+            }
+        ]
+    },
+    {
+        "text": "net work drive notconnecting",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 0,
+                "endPos": 28
+            }
+        ]
+    },
+    {
+        "text": "Connectivity issues; causing issues with email, teams, syncing my one drive",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 0,
+                "endPos": 19
+            },
+            {
+                "entity": "ML.Apps.MSOffice0365Products",
+                "startPos": 41,
+                "endPos": 62
+            }
+        ]
+    },
+    {
+        "text": "I'm trying to log into pulse secure and do not have the correct password,",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 4,
+                "endPos": 22
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 23,
+                "endPos": 35
+            }
+        ]
+    },
+    {
+        "text": "Unable to access internal websites",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.Access",
+                "startPos": 0,
+                "endPos": 34
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 10,
+                "endPos": 34
+            }
+        ]
+    },
+    {
+        "text": "Unlock a mobile device",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.MobileActions",
+                "startPos": 0,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Unlock",
+                        "startPos": 0,
+                        "endPos": 22
+                    }
+                ]
+            },
+            {
+                "entity": "ML.Hardware.Mobile",
+                "startPos": 9,
+                "endPos": 22,
+                "children": [
+                    {
+                        "entity": "Generic",
+                        "startPos": 9,
+                        "endPos": 22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Wifi on laptop is not working.  Only works when hardwired.",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Hardware.Computer",
+                "startPos": 0,
+                "endPos": 29
+            },
+            {
+                "entity": "ML.Issues.HardwareIssues",
+                "startPos": 8,
+                "endPos": 29
+            }
+        ]
+    },
+    {
+        "text": "liberty vpn pulse log in failing. says my account is locked",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 8,
+                "endPos": 17
+            },
+            {
+                "entity": "Ml.Issues.Access",
+                "startPos": 18,
+                "endPos": 32
+            }
+        ]
+    },
+    {
+        "text": "Can you remotely connect me to LAN network",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 8,
+                "endPos": 24
+            }
+        ]
+    },
+    {
+        "text": "Receiving  Authentication error on VPN",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 11,
+                "endPos": 38
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 35,
+                "endPos": 38
+            }
+        ]
+    },
+    {
+        "text": "i am having problems with my intranet. it wont let me access any links",
+        "intent": "Intent.NetworkIssues",
+        "entities": [
+            {
+                "entity": "ML.Issues.NetworkConnection",
+                "startPos": 12,
+                "endPos": 37
+            },
+            {
+                "entity": "ML.Apps.NetworkSecurity",
+                "startPos": 54,
+                "endPos": 70
+            }
+        ]
+    }
+]
