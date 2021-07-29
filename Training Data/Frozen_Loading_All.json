@@ -1,0 +1,612 @@
+[
+    {
+        "text": "TEAMS will not open",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text":"VDI is slow. Need additional ram or cpu.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "Trying to login to my VDE and it is not responding.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 36,
+                "endCharIndex": 49,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 36,
+                        "endCharIndex": 49
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.Cloudforge",
+                "startCharIndex": 22,
+                "endCharIndex": 24
+            }
+        ]
+    },
+    {
+        "text": "new computer Avaya, istar and chrome not loaded",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 37,
+                "endCharIndex": 46,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 37,
+                        "endCharIndex": 46
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.CommunicationsApplications",
+                "startCharIndex": 13,
+                "endCharIndex": 17,
+                "children": [
+                    {
+                        "entityName": "AvayaCMS",
+                        "startCharIndex": 13,
+                        "endCharIndex": 17
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.CommunicationsApplications",
+                "startCharIndex": 20,
+                "endCharIndex": 24,
+                "children": [
+                    {
+                        "entityName": "Avaya iStar",
+                        "startCharIndex": 20,
+                        "endCharIndex": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "PDFs not loading",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "i cannot log into teams. the app will not open.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 33,
+                "endCharIndex": 45,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 33,
+                        "endCharIndex": 45
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.CommunicationsApplications",
+                "startCharIndex": 18,
+                "endCharIndex": 22,
+                "children": [
+                    {
+                        "entityName": "MICROSOFT TEAMS",
+                        "startCharIndex": 18,
+                        "endCharIndex": 22
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 2,
+                "endCharIndex": 16
+            }
+        ]
+    },
+    {
+        "text": "Citrix Receiver will not open applications (SAS, Claimfile)",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 0,
+                "endCharIndex": 14
+            },
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 21,
+                "endCharIndex": 41
+            },
+            {
+                "entityName": "ML.Apps.GRMClaims",
+                "startCharIndex": 44,
+                "endCharIndex": 57
+            }
+        ]
+    },
+    {
+        "text": "legal files is freezing up with pdfs",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.ADOBE",
+                "startCharIndex": 15,
+                "endCharIndex": 35
+            }
+        ]
+    },
+    {
+        "text": "Legal Files won't open",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 12,
+                "endCharIndex": 21
+            }
+        ]
+    },
+    {
+        "text": "nice engage  is freezing screen scrapes. confirmed this is not just me",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 0,
+                "endCharIndex": 10
+            }
+        ]
+    },
+    {
+        "text": "I have a system update that I am having trouble downloading",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 40,
+                "endCharIndex": 58
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 9,
+                "endCharIndex": 21
+            }
+        ]
+    },
+    {
+        "text": "iris will not open in any browser",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 0,
+                "endCharIndex": 3
+            },
+            {
+                "entityName": "ML.Apps.Browsers",
+                "startCharIndex": 5,
+                "endCharIndex": 32
+            }
+        ]
+    },
+    {
+        "text": "SCREEN FROZE",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 7,
+                "endCharIndex": 11,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 7,
+                        "endCharIndex": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "VDDP35G-FHVZ0XS - VDD client machine is not launching",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.NetworkSecurity",
+                "startCharIndex": 18,
+                "endCharIndex": 35,
+                "children": [
+                    {
+                        "entityName": "zScaler",
+                        "startCharIndex": 18,
+                        "endCharIndex": 35
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 37,
+                "endCharIndex": 52
+            }
+        ]
+    },
+    {
+        "text": "Can't launch SAS EG from Citrix",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 0,
+                "endCharIndex": 11,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 0,
+                        "endCharIndex": 11
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 25,
+                "endCharIndex": 30
+            }
+        ]
+    },
+    {
+        "text": "Teams isn't loading",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.CommunicationsApplications",
+                "startCharIndex": 0,
+                "endCharIndex": 4,
+                "children": [
+                    {
+                        "entityName": "MICROSOFT TEAMS",
+                        "startCharIndex": 0,
+                        "endCharIndex": 4
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 6,
+                "endCharIndex": 18,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 6,
+                        "endCharIndex": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Cannot start VDI",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 13,
+                "endCharIndex": 15
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 0,
+                "endCharIndex": 11
+            }
+        ]
+    },
+    {
+        "text": "i can't get my second monitor to work.  It was working and then lost signal",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "Teams app not working",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "I have a VM that I'm trying to open and the VM won't open.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 44,
+                "endCharIndex": 56
+            },
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 9,
+                "endCharIndex": 12
+            }
+        ]
+    },
+    {
+        "text": "Unable to start Microsoft Teams.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 0,
+                "endCharIndex": 14
+            },
+            {
+                "entityName": "ML.Apps.MSOffice0365Products",
+                "startCharIndex": 16,
+                "endCharIndex": 30
+            }
+        ]
+    },
+    {
+        "text": "citrix is orking very slow.. inter mittently … it freezes",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 0,
+                "endCharIndex": 5
+            },
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 17,
+                "endCharIndex": 25,
+                "children": [
+                    {
+                        "entityName": "PerformanceSlow",
+                        "startCharIndex": 17,
+                        "endCharIndex": 25
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 47,
+                "endCharIndex": 56,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 47,
+                        "endCharIndex": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "SAS is frozen",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 0,
+                "endCharIndex": 2
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 4,
+                "endCharIndex": 12
+            }
+        ]
+    },
+    {
+        "text": "MS office documents not saving",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "I have 2 sessions of Legal files open and its frozen",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 21,
+                "endCharIndex": 31
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 42,
+                "endCharIndex": 51
+            }
+        ]
+    },
+    {
+        "text": "My monitor continues to flash a black screen when I have my laptop in the docking station.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 24,
+                "endCharIndex": 43
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 74,
+                "endCharIndex": 88
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 3,
+                "endCharIndex": 9
+            }
+        ]
+    },
+    {
+        "text": "Zoom automatically rolls back version every Friday",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "My computer is very slow and seems to have issues",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.HardwareIssues",
+                "startCharIndex": 0,
+                "endCharIndex": 23
+            },
+            {
+                "entityName": "ML.Hardware.Computer",
+                "startCharIndex": 0,
+                "endCharIndex": 10
+            }
+        ]
+    },
+    {
+        "text": "nice engage won't open",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 0,
+                "endCharIndex": 10
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 12,
+                "endCharIndex": 21
+            }
+        ]
+    },
+    {
+        "text": "SAS not opening properly via Citrix Cloud Web App",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 4,
+                "endCharIndex": 23
+            },
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 29,
+                "endCharIndex": 48
+            }
+        ]
+    },
+    {
+        "text": "I can't launch to bolt platform from CSW for auto",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 2,
+                "endCharIndex": 13
+            },
+            {
+                "entityName": "ML.Apps.GRMQuoting",
+                "startCharIndex": 37,
+                "endCharIndex": 39
+            }
+        ]
+    },
+    {
+        "text": "Microsoft Teams will not open",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.MSOffice0365Products",
+                "startCharIndex": 0,
+                "endCharIndex": 15
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 16,
+                "endCharIndex": 30
+            }
+        ]
+    },
+    {
+        "text": "my system gets hanged whenever i join a meeting through Microsoft teams",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": []
+    },
+    {
+        "text": "VDE is not launching",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.CitrixCloudWorkplace",
+                "startCharIndex": 0,
+                "endCharIndex": 3
+            },
+            {
+                "entityName": "ML.Issues.Access",
+                "startCharIndex": 0,
+                "endCharIndex": 19
+            }
+        ]
+    },
+    {
+        "text": "oneDrive is syncing in my Mac for a long time more than 3 weeks.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "List.Hardware.All",
+                "startCharIndex": 26,
+                "endCharIndex": 28
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 12,
+                "endCharIndex": 18,
+                "children": [
+                    {
+                        "entityName": "Sync",
+                        "startCharIndex": 12,
+                        "endCharIndex": 18
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 36,
+                "endCharIndex": 44,
+                "children": [
+                    {
+                        "entityName": "PerformanceFrozen",
+                        "startCharIndex": 36,
+                        "endCharIndex": 44
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Microsoft 365 Apps Update has been spinning for over 1/2 hour.",
+        "intentName": "Intent.FrozenLoadingIssue",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.MSOffice0365Products",
+                "startCharIndex": 0,
+                "endCharIndex": 17
+            },
+            {
+                "entityName": "ML.Issues.Performance",
+                "startCharIndex": 26,
+                "endCharIndex": 42,
+                "children": [
+                    {
+                        "entityName": "PerformanceSlow",
+                        "startCharIndex": 26,
+                        "endCharIndex": 42
+                    }
+                ]
+            }
+        ]
+    }
+]
