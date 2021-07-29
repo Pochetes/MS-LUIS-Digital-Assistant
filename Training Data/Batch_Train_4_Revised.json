@@ -1,0 +1,1402 @@
+[
+    {
+        "text": "Replacement computer backup/migrate data",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "please restart VDI for n1545368",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "I am working with a group of new hires to setup the Recancel Macro. \u00c2\u00a0",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "Git error when cloning repo",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "update computer",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "Need gold disk on USB",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "status of ticket",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "What is the IT phone number?",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "unable to attach a large document to the file",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "i'm having issues with microsoft teams",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "3127236500",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "What am I supposed to do with this?",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "Application not sized to screen",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "application portal",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "good morning",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "Liberty Mutual Application Portal issues with Adobe Acrobat",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "good morning",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "good morning",
+        "intentName": "None",
+        "entityLabels": []
+    },
+    {
+        "text": "i need help setting up the new displays configuration",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.HardwareIssues",
+                "startCharIndex": 12,
+                "endCharIndex": 21,
+                "children": [
+                    {
+                        "entityName": "Setup",
+                        "startCharIndex": 12,
+                        "endCharIndex": 21
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.ExternalDevice",
+                "startCharIndex": 31,
+                "endCharIndex": 52,
+                "children": [
+                    {
+                        "entityName": "Monitor",
+                        "startCharIndex": 31,
+                        "endCharIndex": 52
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "display settings changed and not giving option to change back",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Hardware.ExternalDevice",
+                "startCharIndex": 0,
+                "endCharIndex": 15,
+                "children": [
+                    {
+                        "entityName": "Monitor",
+                        "startCharIndex": 0,
+                        "endCharIndex": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I am having issues with my computer",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.HardwareIssues",
+                "startCharIndex": 12,
+                "endCharIndex": 34
+            },
+            {
+                "entityName": "ML.Hardware.Computer",
+                "startCharIndex": 27,
+                "endCharIndex": 34
+            }
+        ]
+    },
+    {
+        "text": "dual monitor setup",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "printer setup trouble",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "computer wont charge",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "docking station is not recognizing my other monitor's",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Laptop Out of Warranty",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "need new laptop battery showing 7% and it is plugged in but going down",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Replacement Laptop",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "the charger that came with my work laptop does not fit the charging port",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Computer warranty/ computer issues",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.HardwareIssues",
+                "startCharIndex": 0,
+                "endCharIndex": 16,
+                "children": [
+                    {
+                        "entityName": "Warranty",
+                        "startCharIndex": 0,
+                        "endCharIndex": 16
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Computer",
+                "startCharIndex": 0,
+                "endCharIndex": 7
+            }
+        ]
+    },
+    {
+        "text": "my laptop needs replaced due to the case splitting from the battery",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Dock+monitor hibernation issues.",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "need to connect docking station",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "local sales office printer not recognizing badges",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "monitor black",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "monitors are turning on and off. Losing video signal",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Monitor are still cutting on and off. Just for a longer period of time now",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "monitors aren't working",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Need to replace out of warranty laptop",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "My laptop is bulging and the mouse pad is starting to separate.",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "dual monitors just stopped working",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "disposal of laptop out of warranty",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Warranty is expired",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "exchange to a wireless keyboard/ mouse and correct laptop docking station.",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "Laptop keyboard is broken on multiple letters requesting replacement",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "laptop issues w/ mouse",
+        "intentName": "Intent.HardWareIssues",
+        "entityLabels": []
+    },
+    {
+        "text": "I have a new iphone and need to get ping setup again.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 9,
+                "endCharIndex": 51,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 9,
+                        "endCharIndex": 51
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 13,
+                "endCharIndex": 18,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 13,
+                        "endCharIndex": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need to set up my personal phone for company use.  iphone.   Thanks",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 8,
+                "endCharIndex": 47,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 8,
+                        "endCharIndex": 47
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 51,
+                "endCharIndex": 56,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 51,
+                        "endCharIndex": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My phone is not working.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 3,
+                "endCharIndex": 22
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 3,
+                "endCharIndex": 7,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 3,
+                        "endCharIndex": 7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Need help setting up mobile phone for email and team access via phone",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 10,
+                "endCharIndex": 32,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 10,
+                        "endCharIndex": 32
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 21,
+                "endCharIndex": 32,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 21,
+                        "endCharIndex": 32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Unlock a mobile device",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 21,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 21
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 9,
+                "endCharIndex": 21,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 9,
+                        "endCharIndex": 21
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I need a MobileIron registration PIN for my new work-issued iPhone",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "List.Apps.All",
+                "startCharIndex": 9,
+                "endCharIndex": 18
+            },
+            {
+                "entityName": "List.Hardware.All",
+                "startCharIndex": 9,
+                "endCharIndex": 18
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 9,
+                "endCharIndex": 35,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 9,
+                        "endCharIndex": 35
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I forgot my password for my Iphone",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 2,
+                "endCharIndex": 19,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 2,
+                        "endCharIndex": 19
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 28,
+                "endCharIndex": 33,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 28,
+                        "endCharIndex": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "forgot my passcode to my new work iPhone and need to reset it.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 17,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 17
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 29,
+                "endCharIndex": 39,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 29,
+                        "endCharIndex": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iphone restart",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 0,
+                "endCharIndex": 5
+            }
+        ]
+    },
+    {
+        "text": "Need iphone unlocked",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 5,
+                "endCharIndex": 10,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 5,
+                        "endCharIndex": 10
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 12,
+                "endCharIndex": 19,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 12,
+                        "endCharIndex": 19
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I received a new phone that doesn't have service",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 17,
+                "endCharIndex": 21,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 17,
+                        "endCharIndex": 21
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 17,
+                "endCharIndex": 47
+            }
+        ]
+    },
+    {
+        "text": "forgot password to work account on android byomd need to reset",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 61,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 61
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 35,
+                "endCharIndex": 47,
+                "children": [
+                    {
+                        "entityName": "Android",
+                        "startCharIndex": 35,
+                        "endCharIndex": 47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need to set up a new work iphone and need registration pin for mobileiron",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 8,
+                "endCharIndex": 72,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 8,
+                        "endCharIndex": 72
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I need a new mobile registration pin",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 9,
+                "endCharIndex": 35,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 9,
+                        "endCharIndex": 35
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 13,
+                "endCharIndex": 18,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 13,
+                        "endCharIndex": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need PIN for mobileiron",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 22,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 0,
+                        "endCharIndex": 22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I'm having an issue installing MobileIron on my new, company-issued iPhone",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 14,
+                "endCharIndex": 40,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 14,
+                        "endCharIndex": 40
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 53,
+                "endCharIndex": 73,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 53,
+                        "endCharIndex": 73
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "My iphone reset.  I am trying to log back into mobileiron but need a pin.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 23,
+                "endCharIndex": 71,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 23,
+                        "endCharIndex": 71
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 3,
+                "endCharIndex": 8,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 3,
+                        "endCharIndex": 8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Forgot phone password, phone is now disabled",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 20,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 20
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 7,
+                "endCharIndex": 11,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 7,
+                        "endCharIndex": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "how to set up BYOM",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 7,
+                "endCharIndex": 17,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 7,
+                        "endCharIndex": 17
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 14,
+                "endCharIndex": 17,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 14,
+                        "endCharIndex": 17
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I have a NEW PHONE - and need to get MobileIron, etc. set up",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 13,
+                "endCharIndex": 17,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 13,
+                        "endCharIndex": 17
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 25,
+                "endCharIndex": 59,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 25,
+                        "endCharIndex": 59
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I am trying to set up my iPhone for BYOM",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 5,
+                "endCharIndex": 39,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 5,
+                        "endCharIndex": 39
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 25,
+                "endCharIndex": 30,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 25,
+                        "endCharIndex": 30
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 36,
+                "endCharIndex": 39
+            }
+        ]
+    },
+    {
+        "text": "trying to set up my new iphone but running into some issues.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 10,
+                "endCharIndex": 29,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 10,
+                        "endCharIndex": 29
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 24,
+                "endCharIndex": 29,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 24,
+                        "endCharIndex": 29
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "how do I reset my password on my work cell phone?\u00c2\u00a0",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 9,
+                "endCharIndex": 47,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 9,
+                        "endCharIndex": 47
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 33,
+                "endCharIndex": 47,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 33,
+                        "endCharIndex": 47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iPhone is disabled.",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 18,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 18
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 0,
+                "endCharIndex": 5,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 0,
+                        "endCharIndex": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iPhone locked",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 12,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 0,
+                        "endCharIndex": 12
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 0,
+                "endCharIndex": 12,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 0,
+                        "endCharIndex": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Need help unlocking iphone",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 5,
+                "endCharIndex": 25,
+                "children": [
+                    {
+                        "entityName": "Unlock",
+                        "startCharIndex": 5,
+                        "endCharIndex": 25
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 20,
+                "endCharIndex": 25,
+                "children": [
+                    {
+                        "entityName": "iPhone",
+                        "startCharIndex": 20,
+                        "endCharIndex": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "replacement phone activation",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 12,
+                "endCharIndex": 27,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 12,
+                        "endCharIndex": 27
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Hardware.Mobile",
+                "startCharIndex": 12,
+                "endCharIndex": 16,
+                "children": [
+                    {
+                        "entityName": "Generic",
+                        "startCharIndex": 12,
+                        "endCharIndex": 16
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "mobileiron mdm activation communication",
+        "intentName": "Intent.MobileManagement",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.MobileActions",
+                "startCharIndex": 0,
+                "endCharIndex": 38,
+                "children": [
+                    {
+                        "entityName": "Register",
+                        "startCharIndex": 0,
+                        "endCharIndex": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Binder not generating in iUnderwrite",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 20,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 0,
+                        "endCharIndex": 20
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 25,
+                "endCharIndex": 35
+            }
+        ]
+    },
+    {
+        "text": "Unable to substitute vehicle receiving error while rating",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 29,
+                "endCharIndex": 56,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 29,
+                        "endCharIndex": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "CB iUW (Rating) Crime rating in iUW error",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 3,
+                "endCharIndex": 5,
+                "children": [
+                    {
+                        "entityName": "iUnderwrite",
+                        "startCharIndex": 3,
+                        "endCharIndex": 5
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 16,
+                "endCharIndex": 40,
+                "children": [
+                    {
+                        "entityName": "Rating Issue",
+                        "startCharIndex": 16,
+                        "endCharIndex": 40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "iUW (Offer) Proposal not generating in iUnderwrite. - IDM issue",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 2,
+                "children": [
+                    {
+                        "entityName": "iUnderwrite",
+                        "startCharIndex": 0,
+                        "endCharIndex": 2
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 12,
+                "endCharIndex": 49,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 12,
+                        "endCharIndex": 49
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating issue",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 11,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 0,
+                        "endCharIndex": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "receiving an error while rerating . license number is required field.",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 13,
+                "endCharIndex": 32,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 13,
+                        "endCharIndex": 32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating concerns",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 14,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 0,
+                        "endCharIndex": 14
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "RAD Compass (Rating) Rating Failed A7284122.2",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 4,
+                "endCharIndex": 10,
+                "children": [
+                    {
+                        "entityName": "Compass",
+                        "startCharIndex": 4,
+                        "endCharIndex": 10
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 21,
+                "endCharIndex": 33,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 21,
+                        "endCharIndex": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "rating system",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 12,
+                "children": [
+                    {
+                        "entityName": "Rating Issue",
+                        "startCharIndex": 0,
+                        "endCharIndex": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Getting error in Change policy screen while rating the premium",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 8,
+                "endCharIndex": 61,
+                "children": [
+                    {
+                        "entityName": "Rating Issue",
+                        "startCharIndex": 8,
+                        "endCharIndex": 61
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "RAD Compass (Rating) Rating in Progress A7287460.1.",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 4,
+                "endCharIndex": 10,
+                "children": [
+                    {
+                        "entityName": "Compass",
+                        "startCharIndex": 4,
+                        "endCharIndex": 10
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 21,
+                "endCharIndex": 38,
+                "children": [
+                    {
+                        "entityName": "Rating Issue",
+                        "startCharIndex": 21,
+                        "endCharIndex": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i am rerating a policy and getting a huge error message i cannot bypass.",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 5,
+                "endCharIndex": 46,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 5,
+                        "endCharIndex": 46
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "CB iUW  (Offer) proposal not generating - due to PW",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 3,
+                "endCharIndex": 5,
+                "children": [
+                    {
+                        "entityName": "iUnderwrite",
+                        "startCharIndex": 3,
+                        "endCharIndex": 5
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 16,
+                "endCharIndex": 38,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 16,
+                        "endCharIndex": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Compass: Unable to send ratings to market - receiving 404 error",
+        "intentName": "Intent.RatingIssues",
+        "entityLabels": [
+            {
+                "entityName": "ML.Apps.GRS",
+                "startCharIndex": 0,
+                "endCharIndex": 6,
+                "children": [
+                    {
+                        "entityName": "Compass",
+                        "startCharIndex": 0,
+                        "endCharIndex": 6
+                    }
+                ]
+            },
+            {
+                "entityName": "ML.Issues.GRS",
+                "startCharIndex": 9,
+                "endCharIndex": 40,
+                "children": [
+                    {
+                        "entityName": "Rating issue",
+                        "startCharIndex": 9,
+                        "endCharIndex": 40
+                    }
+                ]
+            }
+        ]
+    }
+]
