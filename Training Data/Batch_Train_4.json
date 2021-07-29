@@ -27,7 +27,7 @@
     {
         "text": "Need gold disk on USB",
         "intent": "None",
-        "entities": []
+        "entities": [] 
     },
     {
         "text": "status of ticket",
