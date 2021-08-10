@@ -12,6 +12,12 @@ import json, time, uuid
 #     authoringEndpoint = 'PASTE_YOUR_LUIS_AUTHORING_ENDPOINT_HERE'
 #     predictionKey = 'PASTE_YOUR_LUIS_PREDICTION_SUBSCRIPTION_KEY_HERE'
 #     predictionEndpoint = 'PASTE_YOUR_LUIS_PREDICTION_ENDPOINT_HERE'
+appId = 'bc12f380-fc99-4ecc-8b0e-4dd6cde01400'
+authoringKey = 'b69a51f58d3047048779bd3c01080ff0'
+authoringEndpoint = 'https://hydluissbx01-authoring.cognitiveservices.azure.com/'
+predictionKey = '3106ba28b86b42ce9ca45c3d00987f21'
+predictionEndpoint = 'https://hydluissbx01.cognitiveservices.azure.com/'
+
 client = None
     
 def quickstart():
