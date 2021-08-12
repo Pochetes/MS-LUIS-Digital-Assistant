@@ -1,6 +1,4 @@
 # LUIS Chatbot - Tech Support Digital Assistant
-<!-- forge.header -->
-[![CloudForge Console][console_shield]][console_url] [![Open PRs][pr_shield]][pr_url]
 
 | Environment   | Type          | Status        | Days Since Last Deployment |
 | ------------- | ------------- | ------------- | -------------------------- |
