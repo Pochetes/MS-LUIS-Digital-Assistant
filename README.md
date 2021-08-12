@@ -7,7 +7,7 @@
 | Microsoft LUIS |              | creating new models |                      |
 <!-- /forge.header -->
 
-To learn about the technologies and resources used, refer to the [Liberty Mutual LUIS documentation](https://forge.lmig.com/wiki/display/HSCCBS/LUIS+Development+Process)
+To learn about the technologies and resources used, refer to the [Liberty Mutual LUIS documentation](https://forge.lmig.com/wiki/display/HSCCBS/LUIS+Development+Process).
 
 <!-- Add your content here -->
 ## Our Progress
