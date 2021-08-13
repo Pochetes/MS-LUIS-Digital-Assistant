@@ -8,17 +8,17 @@ var request = require('request');
 // Values to modify.
 
 // YOUR-APP-ID: The App ID GUID found on the www.luis.ai Application Settings page.
-const LUIS_appId = "bc12f380-fc99-4ecc-8b0e-4dd6cde01400";
+const LUIS_appId = "YOUR_APP_ID";
 
 // YOUR-AUTHORING-KEY: Your LUIS authoring key, 32 character value.
-const LUIS_authoringKey = "b69a51f58d3047048779bd3c01080ff0";
+const LUIS_authoringKey = "YOUR_AUTHORING_KEY";
 
 // YOUR-AUTHORING-ENDPOINT: Replace this with your authoring key endpoint.
 // For example, "https://your-resource-name.cognitiveservices.azure.com/"
-const LUIS_endpoint = "https://hydluissbx01-authoring.cognitiveservices.azure.com/";
+const LUIS_endpoint = "YOUR_AUTHORING_ENDPOINT";
 
 // NOTE: Replace this your version number. The Pizza app uses a version number of "0.1".
-const LUIS_versionId = "0.5.4";
+const LUIS_versionId = "YOUR_VERSION_NUMBER";
 //////////
 
 const addUtterancesURI = `${LUIS_endpoint}luis/authoring/v3.0-preview/apps/${LUIS_appId}/versions/${LUIS_versionId}/examples`;
